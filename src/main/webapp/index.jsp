@@ -6,6 +6,8 @@ B<html>
 
 <p>This is my NextWork web application working!</p>
 
+<p>If you see this line in GitHub, that means my latest changes are getting pushed to my cloud repo :o</p>
+
 <p>I am writing this line using nano instead of an IDE.</p>
 
 </body> TRUJCMc7n2keky@
