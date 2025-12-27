@@ -5,11 +5,11 @@ Welcome to this project combining Java web app development and AWS CI/CD tools!
 <br>
 
 ## Table of Contents
-- [Introduction]
-- [Technologies]
-- [Setup]
-- [Contact]
-- [Conclusion]
+- Introduction
+- Technologies
+- Setup
+- Contact
+- Conclusion
 
 <br>
 
