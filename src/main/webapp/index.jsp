@@ -1,4 +1,4 @@
-B<html>
+<html>
 
 <body>
 
@@ -10,6 +10,6 @@ B<html>
 
 <p>I am writing this line using nano instead of an IDE.</p>
 
-</body> TRUJCMc7n2keky@
+</body>
 
 </html>
