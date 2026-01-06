@@ -1,8 +1,10 @@
 #!/bin/bash
-# Adding this at the top of your script to make it exit immediately if any command fails
-set -e
+isExistApp="$(pgrep httpd)"
+if [[ -n $isExistApp ]]; then
+sudo systemctl stop httpd.service
+fi
+isExistApp="$(pgrep tomcat)"
+if [[ -n $isExistApp ]]; then
+sudo systemctl stop tomcat.service
+fi
 
-# my intentional error
-sudo systemctll stop httpd.service  # Misspelled command will now cause script to exit with non-zero status
-
-exit 1
