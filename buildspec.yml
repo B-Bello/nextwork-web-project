@@ -24,7 +24,7 @@ phases:
   post_build:
     commands:
       - echo "Build completed on `date`"
-      - - mvn -U -s settings.xml compile
+      - mvn -U -s settings.xml compile
 
 
 artifacts:
