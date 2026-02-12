@@ -31,5 +31,6 @@ artifacts:
     - target/nextwork-web-project.war
     - appspec.yml
     - scripts/**/*
+  base-directory: .
   discard-paths: no
 
