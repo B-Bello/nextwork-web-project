@@ -18,13 +18,12 @@ phases:
       - echo "====== TEST PHASE COMPLETE ======"
       - echo "====== BEGINNING BUILD PHASE ======"
       - echo "Build started on `date`"
-      - mvn -s settings.xml compile
+      - mvn -s settings.xml package
       - echo "====== BUILD PHASE COMPLETE ======"
   
   post_build:
     commands:
       - echo "Build completed on `date`"
-      - mvn -U -s settings.xml compile
 
 
 artifacts:
