@@ -10,6 +10,8 @@
 
 <p>I am writing this line using nano instead of an IDE.</p>
 
+<p>If you see this line, that means my latest changes are automatically deployed into production by CodePipeline!</p>
+
 </body>
 
 </html>
